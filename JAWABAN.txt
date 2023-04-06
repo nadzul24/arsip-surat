@@ -1,0 +1,121 @@
+1. Apa saja yang mungkin menyebabkan terjadinya kesalahan program saat di-compile (compile time error) ?
+- Syntax yang digunakan tidak lengkap
+- Package ada yang belum terpasang
+- Ada variabel yang belum terdefinisikan
+- Penggunaan huruf besar kecil yang salah
+- Nama kelas salah
+- Salah pendefinisian variabel
+2. Apa saja yang mungkin menyebabkan terjadinya kesalahan program saat di-eksekusi/running (run time error) ?
+- Terdapat rumus yang menggunakan pembagian 0
+- Perulangan tak terhingga
+- Memakan banyak memori saat menjalankan
+- Pencarian file yang tidak terdefinisikan
+3. String sayHello(String name){
+    return “Hello ”+name+”\n”;
+}
+String sayHello(){
+    return “Hello every body\n”;
+}
+int subtract(int a, int b){
+    int ret = 0;
+    if(a>b){
+    ret = a-b;
+}else{
+    ret = b-a;
+}
+return ret;
+}
+Ada berapa fungsi dari cuplikan program di atas? Sebutkan fungsi apa saja!
+Fungsi di syntax tersebut ada 3 yaitu sayHello(String name), sayHello(), dan subtract.
+4. 
+String sayHello(String name){
+    return “Hello ”+name+”\n”;
+}
+String sayHello(){
+    return “Hello every body\n”;
+}
+int subtract(int a, int b){
+    int ret = 0;
+    if(a>b){
+    ret = a-b;
+}else{
+    ret = b-a;
+}
+return ret;
+}
+
+Fungsi apa saja yang memiliki parameter? Dan sebutkanparameter dari tiap fungsi tersebut!
+Fungsi berparameter ada 2 yaitu sayHello(String name) dengan parameter name bertipe String dan ada fungsi subtract(int a, int b) dengan parameter a dan b bertipe integer.
+
+5. String sayHello(String name){
+    return “Hello ”+name+”\n”;
+}
+
+String sayHello(){
+    return “Hello every body\n”;
+}
+
+int subtract(int a, int b){
+    int ret = 0;
+    if(a>b){
+    ret = a-b;
+}else{
+    ret = b-a;
+}
+return ret;
+}
+Perhatikan fungsi subtract, jelaskan algoritma di dalamnya!
+- Fungsi subtract memiliki parameter a dan b yang didalamnya terdefinisikan variabel ret bernilai 0. Kemudian ada kondisi dimana a lebih besar dari b maka akan dijalankan pengitungan a-b dan hasil akan disimpan ke variabel ret. Apabila tidak sesuai kondisi maka dijalankan penghitungan b - a yang akan disimpan pada variabel ret.
+6. String sayHello(String name){	
+    return “Hello ”+name+”\n”;
+}
+
+String sayHello(){
+    return “Hello every body\n”;
+}
+
+int subtract(int a, int b){		//Deklarasi fungsi subtract dengan parameter a dan b bertipe data integer
+    int ret = 0;			//Deklarasi variabel ret bertipe data integer dengan pemberian nilai 0
+    if(a>b){				//Pembuatan kondisi a lebih besar dari b
+    ret = a-b;				//Apabila kondisi sesuai maka perhitungan a-b dengan hasil disimpan pada variabel ret
+}else{					//Apabila kondisi tidak sesuai
+    ret = b-a;				//proses perhitungan b-a dengan hasil disimpan pada variabel ret
+}
+return ret;				//mengembalikan nilai yang tersimpan pada variabel ret
+}
+
+Berikan komentar pada setiap baris program fungsi subtract pada program di atas!
+
+
+7. Class merupakan komponen utama dalam Pemrograman Berorientasi Objek dimana class sangat berkaitan dengan objek, jelaskan secara singkat apa yang dimaksud dengan Class?
+- Class adalah keadaan atau berisi perilaku yang dapat dilakukan objek tertentu serta memiliki atribut dan behavior. Contoh class Kendaraan, Hewan, Mesin. Contoh objectnya Motor, Mobil, Mesin jahit
+
+
+*JAWABAN*
+1. - Syntax yang digunakan tidak lengkap
+- Package ada yang belum terpasang
+- Ada variabel yang belum terdefinisikan
+- Penggunaan huruf besar kecil yang salah
+- Nama kelas salah
+
+2. - Terdapat rumus yang menggunakan pembagian 0
+- Perulangan tak terhingga
+- Memakan banyak memori saat menjalankan
+- Pencarian file yang tidak terdefinisikan
+
+3. Fungsi di syntax tersebut ada 3 yaitu sayHello(String name), sayHello(), dan subtract.
+
+4. Fungsi berparameter ada 2 yaitu sayHello(String name) dengan parameter name bertipe String dan ada fungsi subtract(int a, int b) dengan parameter a dan b bertipe integer.
+
+5. Fungsi subtract memiliki parameter a dan b yang didalamnya terdefinisikan variabel ret bernilai 0. Kemudian ada kondisi dimana a lebih besar dari b maka akan dijalankan pengitungan a-b dan hasil akan disimpan ke variabel ret. Apabila tidak sesuai kondisi maka dijalankan penghitungan b - a yang akan disimpan pada variabel ret.
+
+6. int subtract(int a, int b){		//Deklarasi fungsi subtract dengan parameter a dan b bertipe data integer
+    int ret = 0;			//Deklarasi variabel ret bertipe data integer dengan pemberian nilai 0
+    if(a>b){				//Pembuatan kondisi a lebih besar dari b
+    ret = a-b;				//Apabila kondisi sesuai maka perhitungan a-b dengan hasil disimpan pada variabel ret
+}else{					//Apabila kondisi tidak sesuai
+    ret = b-a;				//proses perhitungan b-a dengan hasil disimpan pada variabel ret
+}
+return ret;				//mengembalikan nilai yang tersimpan pada variabel ret
+
+7. Class adalah keadaan atau berisi perilaku yang dapat dilakukan objek tertentu serta memiliki atribut dan behavior. Contoh class Kendaraan, Hewan, Mesin. Contoh objectnya Motor, Mobil, Mesin jahit
